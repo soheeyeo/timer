@@ -1,0 +1,85 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
+body {
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Pretendard';
+}
+
+h1 {
+    display: block;
+    overflow: hidden;
+    font-size: 1px;
+    line-height: 0;
+    text-indent: -9999px;
+    margin: 72px auto 0 auto;
+    background: url('img/weniv-logo.png') no-repeat;
+    width: 244px;
+    height: 48px;
+}
+
+article {
+    margin: 60px auto;
+    padding: 40px 44px;
+    width: 400px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+}
+
+h2 {
+    padding-bottom: 23px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    border-bottom: 1px solid #3D538A;
+    box-shadow: 0 1px 0 #5B75B4;
+}
+
+ul {
+    margin: 32px 14px 40px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    background: url("img/box.png") no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+li p {
+    padding: 16px 14px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.hrs::after {
+    content: '';
+    background: url('img/dot.png') no-repeat 6px 26px;
+    width: 6px;
+    height: 26px;
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+}
+
+button:nth-child(2) {
+    margin-left: 12px;
+}
+
+footer {
+    margin-bottom: 103px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #8596BF;
+}
